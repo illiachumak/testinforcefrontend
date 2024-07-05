@@ -1,0 +1,148 @@
+.card-modal-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .card-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+  }
+  
+  .pizza-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-details {
+    margin-bottom: 10px;
+  }
+
+  .card-details-first span,
+  .card-details-second span {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .card-details-first span.white-bg,
+  .card-details-second span.white-bg {
+    background-color: #ccc;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .add-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .add-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .add-btn span {
+    font-weight: bold;
+  }
+
+    .invisible{
+    display: none;
+  }
+
+    .modal-view-price{
+        display: flex;
+        gap: 0.5rem;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 700;
+        height: 45px;
+        padding: 10px 0px;
+        align-items: center;
+  }
+
+  .label-input{
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .card-modal-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button{
+    padding: 10px;
+    background-color: #EB5A1E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d65620;
+  }
+ 
+form{
+  width: 35%;
+  background: #ffffff;
+  padding: 2%;
+  border-radius: 15px;
+  height: 98%;
+  overflow: auto;
+}

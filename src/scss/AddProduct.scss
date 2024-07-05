@@ -1,0 +1,31 @@
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #EB5A1E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #EB5A1E;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

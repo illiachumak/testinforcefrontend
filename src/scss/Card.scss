@@ -1,0 +1,171 @@
+.card-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    width: 280px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    padding-bottom: 10px;
+    .pizza-name{
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .card-img{
+        margin-bottom: 7px;
+    }
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-weight: 700;
+    
+
+    
+
+    span{
+    font-size: 24px;
+    }
+    
+}  
+.add-btn{
+    display: flex;
+    align-items: center;
+    padding: 7px 25px;
+    border: 1px solid rgb(235, 90, 30);
+    color:#EB5A1E;
+    border-radius: 30px;
+    cursor: pointer;
+    
+    img{
+        margin-right: 10px;
+    }
+    span{
+        
+        font-size: 16px;
+    }
+}
+
+
+.card-details{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 10px; 
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+.card-details-first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    
+    
+    span{
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        
+        width: 48%; 
+        padding: 2%;
+        border-radius: 7px;
+        
+    }
+    span:hover{
+        box-shadow:2px 2px 5px #dedede ;
+        transition: all ease-in-out 0.3s;
+    }
+    .white-bg{
+        background-color: #fff;
+        transition: all ease-in-out 0.3s;
+    }
+}
+
+.card-buttons{
+    div{
+        height: 25px;
+    }
+    img{
+        height: 25px;
+        width: 25px;
+        &:hover{
+            border-radius: 50%;
+            padding: 6px;
+            background-color: #f3cab4;
+            transition: all ease-in-out 0.3s;
+        }
+    }
+
+    
+}
+.btn-edit{
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+.btn-delete{
+    margin-right: 5px;
+}
+.card-details-second{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    span{
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        padding: 2%;
+        border-radius: 7px;
+    }
+
+    span:hover{
+        box-shadow:2px 2px 5px #dedede ;
+        transition: all ease-in-out 0.3s;
+    }
+    .white-bg{
+        background-color: #fff;
+        transition: all ease-in-out 0.3s;
+    }
+
+}
+
+@media (max-width: 750px) {
+    
+    .card-container{
+        width: 350px;
+    }
+}
+
+@media (max-width: 475px) {
+    
+    .card-container{
+        width: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    .card-container{
+        width: 200px;
+    }
+}
+
+.invisible{
+    display: none;
+  }
